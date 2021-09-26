@@ -1,10 +1,16 @@
 # :zap: Exposify
 
-Tool that picks up any list of domains and use it in order to search for possible .git exposures. 
+Tool that picks up any list of domains and use it in order to search for possible .git exposures.
 
 ## :gear: Installation
 
 If you've got Go installed and configured, you can install Exposify using the command below:
+
+```console
+foo@bar:~$ go install github.com/brenu/exposify@latest
+```
+
+Or, for older versions of Go:
 
 ```console
 foo@bar:~$ go get -u github.com/brenu/exposify
